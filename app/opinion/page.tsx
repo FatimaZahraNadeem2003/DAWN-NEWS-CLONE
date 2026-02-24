@@ -5,7 +5,6 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { ChevronLeft, ChevronRight, Calendar as CalendarIcon, ChevronDown } from "lucide-react";
 
-// --- TypeScript Interfaces ---
 interface SectionItemProps {
     title: string;
     text: string;
@@ -28,12 +27,10 @@ export default function OpinionPage() {
 
             <div className="max-w-[1300px] mx-auto px-4 py-10">
                 
-                {/* --- 1. OPINION TITLE --- */}
                 <h1 className="text-5xl font-serif font-bold text-black border-b border-gray-100 pb-4 mb-20">
                     Opinion
                 </h1>
 
-                {/* --- 2. MAIN FEATURE (Arifa Noor) --- */}
                 <div className="flex flex-col md:flex-row items-center justify-between gap-16 mb-24 px-10">
                     <div className="flex-1 text-center md:text-left order-2 md:order-1">
                         <h2 className="text-[48px] font-serif font-bold leading-tight mb-8">Up in the air</h2>
@@ -54,7 +51,6 @@ export default function OpinionPage() {
                     </div>
                 </div>
 
-                {/* --- 3. OPINION GRID (3 Grayscale items) --- */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border-t border-gray-100 pt-16 mb-10">
                     <OpinionGridItem 
                         img="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop"
@@ -79,7 +75,6 @@ export default function OpinionPage() {
                 </div>
                 <div className="flex justify-end pr-10 mb-20"><button className="text-[#CC0000] text-[13px] font-bold uppercase hover:underline">Read More</button></div>
 
-                {/* --- 4. EDITORIAL SECTION --- */}
                 <div className="border-t border-gray-200 pt-10">
                     <h2 className="text-[48px] font-serif font-bold text-black mb-10">Editorial</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border-t border-gray-100 pt-12 mb-20">
@@ -89,7 +84,6 @@ export default function OpinionPage() {
                     </div>
                 </div>
 
-                {/* --- 5. BRANDED CONTENT (K&N's Mexican Shawarma) --- */}
                 <div className="bg-[#FAF7F2] p-8 border-t border-[#8B0000] mb-24">
                     <span className="text-[#8B0000] text-[10px] font-bold uppercase tracking-widest block mb-6">Branded Content</span>
                     <div className="flex flex-col md:flex-row gap-10 items-start">
@@ -101,7 +95,6 @@ export default function OpinionPage() {
                     </div>
                 </div>
 
-                {/* --- 6. ANALYSIS & COMMENT --- */}
                 <div className="mb-24">
                     <h2 className="text-[48px] font-serif font-bold text-black border-b pb-4 mb-12">Analysis & Comment</h2>
                     <div className="flex flex-col md:flex-row items-center gap-16 px-6">
@@ -114,7 +107,6 @@ export default function OpinionPage() {
                     </div>
                 </div>
 
-                {/* --- 7. ARTICLE GRID (Taliban/Water flow) --- */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border-t pt-16 mb-24">
                     <div className="pr-8 border-r pb-12">
                         <img src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=400&h=240&fit=crop" className="w-full h-[220px] object-cover mb-6" alt="Taliban" />
@@ -133,7 +125,6 @@ export default function OpinionPage() {
                     </div>
                 </div>
 
-                {/* --- 8. CARTOON --- */}
                 <div className="border-t pt-10 mb-24">
                     <h2 className="text-[48px] font-serif font-bold mb-10">Cartoon</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border-y py-10">
@@ -143,7 +134,6 @@ export default function OpinionPage() {
                     </div>
                 </div>
 
-                {/* --- 9. LETTERS GRID (6 Columns) --- */}
                 <div className="mb-24">
                     <h2 className="text-[48px] font-serif font-bold mb-10">Letters</h2>
                     <div className="grid grid-cols-2 md:grid-cols-6 border-t pt-12">
@@ -156,7 +146,6 @@ export default function OpinionPage() {
                     </div>
                 </div>
 
-                {/* --- 10. 50 YEARS AGO --- */}
                 <div className="border-t pt-10">
                     <h2 className="text-[48px] font-serif font-bold mb-10">50 Years Ago</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 border-t pt-12">
@@ -166,7 +155,6 @@ export default function OpinionPage() {
                     </div>
                 </div>
 
-                {/* --- 11. CALENDAR --- */}
                 <div className="flex flex-col items-center py-20 border-t mt-20">
                     <div className="flex items-center gap-2 mb-4">
                         <div className="border border-gray-400 p-2 bg-white"><CalendarIcon size={24}/></div>
@@ -193,7 +181,6 @@ export default function OpinionPage() {
     );
 }
 
-// --- Helper Components with TS Props ---
 
 function OpinionGridItem({ img, title, desc, author, border }: GridItemProps) {
     return (

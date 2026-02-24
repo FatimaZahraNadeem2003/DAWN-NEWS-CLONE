@@ -5,7 +5,6 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { ChevronLeft, ChevronRight, Calendar as CalendarIcon, ChevronDown } from "lucide-react";
 
-// --- TypeScript Interfaces ---
 interface NewsItemProps {
     title: string;
     desc: string;
@@ -20,7 +19,6 @@ interface AnalysisItemProps {
 }
 
 export default function BusinessPage() {
-    // 1. Stock Market Data
     const stockData = [
         { company: "AGSML", price: "9.12", change: "1", per: "12.32", vol: "908,236" },
         { company: "CHBL", price: "9.48", change: "1", per: "11.79", vol: "4,738,151" },
@@ -29,7 +27,6 @@ export default function BusinessPage() {
         { company: "FIBLM", price: "11.52", change: "1.05", per: "10.03", vol: "204,471" },
     ];
 
-    // 2. Sidebar Feed Data
     const sidebarNews = [
         { title: "England captain Brook says a 'shame' if Pakistan players snubbed", img: "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=100&h=100&fit=crop" },
         { title: "Over 80 terrorists killed as armed forces strike 7 camps", img: "https://images.unsplash.com/photo-1579913741631-f88610bb476c?w=100&h=100&fit=crop" },
@@ -39,7 +36,6 @@ export default function BusinessPage() {
         { title: "Cricket politics again", img: "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=100&h=100&fit=crop" },
     ];
 
-    // 3. Newspaper Grid Headlines
     const newspaperHeadlines = [
         "Index tumbles 5,478 points on security jitters", "Nepra urges completion of key NGC projects", "FBR chief's accountability sought in cigarette theft case", "Trade gap widens 42pc with nine countries to $9bn",
         "OGDCL quarterly profit slumps to Rs35bn", "Acquisition of FWBL", "The spirit of giving", "In favour of frontier bond markets",
@@ -56,10 +52,8 @@ export default function BusinessPage() {
 
             <div className="max-w-[1350px] mx-auto px-4 py-8">
                 
-                {/* --- ROW 1: MAIN HERO GRID --- */}
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-16">
                     
-                    {/* LEFT (Hero & Table) */}
                     <div className="lg:col-span-4 border-r pr-6">
                         <h1 className="text-[28px] font-serif font-bold leading-tight mb-4">Bloodbath continues as KSE-100 shreds over 1,400 points on Tuesday</h1>
                         <img src="https://images.unsplash.com/photo-1611974715853-288ee1574673?w=600&h=400&fit=crop" className="w-full h-auto mb-4 shadow-sm" alt="Stock" />
@@ -82,7 +76,6 @@ export default function BusinessPage() {
                         </table>
                     </div>
 
-                    {/* CENTER (Editorial Carousel & Highlights) */}
                     <div className="lg:col-span-5 border-r px-4">
                         <div className="relative mb-6">
                             <img src="https://i.pinimg.com/736x/8f/3e/7b/8f3e7b23f5b02a2817830b567d16277d.jpg" className="w-full h-[300px] object-contain bg-orange-50/30" alt="Remittances" />
@@ -99,7 +92,6 @@ export default function BusinessPage() {
                         </div>
                     </div>
 
-                    {/* RIGHT (Authors & Ad) */}
                     <div className="lg:col-span-3">
                         <h3 className="text-[13px] font-bold border-b-2 border-black pb-2 mb-6 uppercase tracking-widest">Top Authors</h3>
                         <ol className="space-y-4 mb-10">
@@ -117,7 +109,6 @@ export default function BusinessPage() {
                     </div>
                 </div>
 
-                {/* --- ROW 2: DETAILED NEWS FEED --- */}
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 border-t pt-12 mb-16">
                     <div className="lg:col-span-4 space-y-10 border-r pr-6">
                         <NewsItem title="Gold falls from three-week high on profit-booking" desc="Gold prices declined by 1.2pc to $5,167.28, ending a four-session rally." img="https://images.unsplash.com/photo-1610375461246-83df859d849d?w=300&h=200&fit=crop" time="7 Hours Ago" />
@@ -153,7 +144,6 @@ export default function BusinessPage() {
                     </div>
                 </div>
 
-                {/* --- ROW 3: NEWSPAPER HEADLINES GRID --- */}
                 <div className="border-t border-gray-200 pt-10 mb-16">
                     <span className="bg-[#F18805] text-white text-[10px] font-bold px-2 py-0.5 uppercase tracking-widest">Newspaper</span>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-8 gap-y-10 mt-10">
@@ -163,7 +153,6 @@ export default function BusinessPage() {
                     </div>
                 </div>
 
-                {/* --- ROW 4: CALENDAR SECTION --- */}
                 <div className="flex flex-col items-center py-20 border-t border-gray-100">
                     <div className="flex items-center gap-2 mb-4">
                         <div className="border border-gray-400 p-1.5 bg-white shadow-sm"><CalendarIcon size={24} className="text-black" /></div>
@@ -193,7 +182,6 @@ export default function BusinessPage() {
     );
 }
 
-// --- Helper Components ---
 function NewsItem({ title, desc, img, time }: NewsItemProps) {
     return (
         <div className="flex gap-4 items-start border-b border-gray-50 pb-8 last:border-0">

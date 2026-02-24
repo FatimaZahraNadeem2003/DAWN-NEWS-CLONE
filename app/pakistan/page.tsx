@@ -13,10 +13,8 @@ export default function PakistanPage() {
 
             <div className="max-w-[1350px] mx-auto px-4 py-6">
                 
-                {/* --- TOP ROW (IMAGE 1) --- */}
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-10">
                     
-                    {/* 1. Main News (Left) */}
                     <div className="lg:col-span-5 border-r border-gray-200 pr-6">
                         <h1 className="text-3xl font-serif font-bold leading-tight mb-4 hover:underline cursor-pointer">
                             PTI objects to ‘secrecy’ after Imran Khan undergoes follow-up treatment for eye ailment at Pims
@@ -34,7 +32,6 @@ export default function PakistanPage() {
                         </div>
                     </div>
 
-                    {/* 2. Center Editorial Carousel (Middle) */}
                     <div className="lg:col-span-4 border-r border-gray-200 pr-6">
                         <div className="relative group mb-6">
                             <img src="https://images.unsplash.com/photo-1579913741631-f88610bb476c?w=600&h=400&fit=crop" className="w-full h-[250px] object-cover" alt="Border" />
@@ -48,7 +45,6 @@ export default function PakistanPage() {
                         </div>
                         <h2 className="text-2xl font-serif font-bold leading-tight mb-6">Editorial: In the long term, the escalation of hostilities is in the interest of neither Pakistan nor Afghanistan</h2>
                         
-                        {/* Highlights Section */}
                         <div className="mt-10">
                             <span className="bg-[#94B15C] text-white text-[10px] font-bold px-2 py-0.5 uppercase">Highlights</span>
                             <div className="grid grid-cols-2 gap-4 mt-4">
@@ -64,7 +60,6 @@ export default function PakistanPage() {
                         </div>
                     </div>
 
-                    {/* 3. Right Sidebar (Top Authors & Ad) */}
                     <div className="lg:col-span-3">
                         <div className="bg-[#E4222D] p-4 text-white relative mb-8">
                             <div className="flex justify-between items-start">
@@ -94,10 +89,8 @@ export default function PakistanPage() {
                     </div>
                 </div>
 
-                {/* --- MIDDLE SECTION (IMAGE 2, 3, 4) --- */}
                 <div className="grid grid-cols-1 lg:col-span-12 lg:grid-cols-12 gap-8 mb-10">
                     
-                    {/* Left Column Feed */}
                     <div className="lg:col-span-4 space-y-10 border-r pr-6">
                         <div className="flex gap-4">
                             <img src="https://images.unsplash.com/photo-1545147388-58309485740a?w=120&h=80&fit=crop" className="w-24 h-20 object-cover" alt="news" />
@@ -122,7 +115,6 @@ export default function PakistanPage() {
                         </div>
                     </div>
 
-                    {/* Center Feed Grid */}
                     <div className="lg:col-span-5 space-y-10 border-r pr-6">
                          <div className="grid grid-cols-2 gap-8">
                              <div>
@@ -142,7 +134,6 @@ export default function PakistanPage() {
                          </div>
                     </div>
 
-                    {/* Right Trending Feed */}
                     <div className="lg:col-span-3">
                         <div className="flex border rounded overflow-hidden mb-6 h-10">
                             <button className="flex-1 bg-black text-white text-[11px] font-bold uppercase">24 Hours</button>
@@ -165,11 +156,9 @@ export default function PakistanPage() {
                     </div>
                 </div>
 
-                {/* --- REGIONAL SECTION (IMAGE 5, 6) --- */}
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 border-t pt-10 mb-16">
                     <div className="lg:col-span-9 grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
                         
-                        {/* Sindh Section */}
                         <div>
                             <span className="bg-[#60833F] text-white text-[10px] font-bold px-2 py-0.5 uppercase mb-4 inline-block">Sindh</span>
                             <div className="space-y-8">
@@ -190,7 +179,6 @@ export default function PakistanPage() {
                             </div>
                         </div>
 
-                        {/* Punjab Section */}
                         <div>
                             <span className="bg-[#60833F] text-white text-[10px] font-bold px-2 py-0.5 uppercase mb-4 inline-block">Punjab</span>
                             <div className="space-y-8">
@@ -212,7 +200,6 @@ export default function PakistanPage() {
                         </div>
                     </div>
 
-                    {/* Sidebar Section (Image 5 right) */}
                     <div className="lg:col-span-3 border-l pl-6">
                         <h3 className="text-[13px] font-bold border-b pb-2 mb-6 uppercase tracking-widest">Top Reads Today</h3>
                         <div className="relative group mb-4">
@@ -231,7 +218,6 @@ export default function PakistanPage() {
                     </div>
                 </div>
 
-                {/* --- NEWSPAPER GRID (IMAGE 7) --- */}
                 <div className="border-y py-10 mb-16">
                     <span className="bg-[#60833F] text-white text-[10px] font-bold px-2 py-0.5 uppercase mb-6 inline-block">Newspaper</span>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-x-8 gap-y-10">
@@ -254,7 +240,6 @@ export default function PakistanPage() {
                     </div>
                 </div>
 
-                {/* --- CALENDAR SECTION (IMAGE 8) --- */}
                 <div className="flex flex-col items-center py-10 border-t">
                     <div className="flex items-center gap-2 mb-4">
                         <div className="border border-gray-400 p-1 rounded-sm"><CalendarIcon size={20} /></div>
