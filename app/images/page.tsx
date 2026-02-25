@@ -137,7 +137,7 @@ export default function ImagesPage() {
                             <div className="text-right mb-4">
                                 <p className="text-[10px] font-bold text-gray-500 uppercase tracking-widest">Culture</p>
                                 <h1 className="text-3xl md:text-4xl font-black uppercase leading-[1.1] mt-4 tracking-tighter">
-                                    Who's afraid of the big bad mom-to-be? Exploring why maternity leave in Pakistan is such a 'problem'
+                                    {`Who's`} afraid of the big bad mom-to-be? Exploring why maternity leave in Pakistan is such a {`'problem'`}
                                 </h1>
                                 <p className="text-sm mt-4 font-medium italic">Annam Lodhi</p>
                             </div>
@@ -167,14 +167,14 @@ export default function ImagesPage() {
                             </div>
                             <div className="bg-[#9c867c] flex flex-col items-center justify-center p-8 text-center text-white min-h-[400px]">
                                 <h2 className="text-2xl font-serif italic mb-2 opacity-70">IMAGES</h2>
-                                <h1 className="text-3xl font-black leading-tight uppercase">Ben & Jerry's has a history of supporting Palestine</h1>
+                                <h1 className="text-3xl font-black leading-tight uppercase">Ben & {`Jerry's`} has a history of supporting Palestine</h1>
                                 <p className="mt-4 text-sm font-medium">The recent resignation of one of the co-founders is one of many pro-Palestine actions undertaken by the company</p>
                                 <img src="https://images.unsplash.com/photo-1501446529957-6226bd447c46?w=400" className="mt-6 w-40 h-40 rounded-md object-cover border-4 border-white" alt="Ice cream" />
                             </div>
                             <div className="p-4 bg-white text-black">
                                 <div className="flex gap-4 mb-2"><span className="text-xl">♡</span> <span className="text-xl">💬</span> <span className="text-xl">✈</span></div>
                                 <p className="text-xs font-bold">193 likes</p>
-                                <p className="text-xs mt-1 leading-relaxed"><span className="font-bold">dawn_images</span> One of the co-founders of ice cream brand Ben & Jerry's...</p>
+                                <p className="text-xs mt-1 leading-relaxed"><span className="font-bold">dawn_images</span> One of the co-founders of ice cream brand Ben & {`Jerry's`}...</p>
                             </div>
                         </div>
                     </div>

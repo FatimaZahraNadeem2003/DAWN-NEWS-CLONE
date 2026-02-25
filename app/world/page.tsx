@@ -57,7 +57,7 @@ export default function World() {
                     <div className="lg:col-span-4 border-r pr-6">
                         <h1 className="text-[28px] font-serif font-bold leading-tight mb-4">Bloodbath continues as KSE-100 shreds over 1,400 points on Tuesday</h1>
                         <img src="https://images.unsplash.com/photo-1611974715853-288ee1574673?w=600&h=400&fit=crop" className="w-full h-auto mb-4 shadow-sm" alt="Stock" />
-                        <p className="text-[14px] text-gray-800 font-medium mb-6 leading-snug">Despite recent sharp falls, experts classify the KSE-100's current state as a correction, not a bear market.</p>
+                        <p className="text-[14px] text-gray-800 font-medium mb-6 leading-snug">Despite recent sharp falls, experts classify the {`KSE-100's`} current state as a correction, not a bear market.</p>
                         
                         <div className="bg-[#94B15C] text-center py-2 text-white font-bold text-[14px] italic border border-[#94B15C]">PSX Highlights of the Day</div>
                         <table className="w-full text-[11px] text-center border border-t-0">

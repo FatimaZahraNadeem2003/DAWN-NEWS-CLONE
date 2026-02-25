@@ -19,7 +19,7 @@ export default function WorldCupPage() {
                         alt="WC Logo" className="h-16 w-auto"
                     />
                     <div className="text-white leading-tight">
-                        <p className="text-[11px] font-bold opacity-70 uppercase tracking-widest">ICC Men's T20</p>
+                        <p className="text-[11px] font-bold opacity-70 uppercase tracking-widest">ICC {`Men's`} T20</p>
                         <p className="text-2xl font-bold uppercase tracking-tighter leading-none">World Cup</p>
                         <p className="text-[10px] font-bold text-yellow-500 tracking-widest">INDIA & SRI LANKA 2026</p>
                     </div>
@@ -42,7 +42,7 @@ export default function WorldCupPage() {
 
                     <div className="lg:col-span-4 bg-[#000044] rounded-xl overflow-hidden relative shadow-2xl min-h-[520px] flex flex-col justify-between">
                         <div className="p-8 relative z-10">
-                            <h3 className="text-yellow-500 text-3xl font-bold leading-none mb-6">ICC Men's T20<br/>World Cup 2026</h3>
+                            <h3 className="text-yellow-500 text-3xl font-bold leading-none mb-6">ICC {`Men's`} T20<br/>World Cup 2026</h3>
                             <div className="inline-block border-b-2 border-white pb-1 mb-6">
                                 <span className="text-white text-xs font-bold uppercase tracking-[0.2em]">Live Score</span>
                             </div>
@@ -97,7 +97,7 @@ export default function WorldCupPage() {
 
                 <div className="mb-16">
                     <div className="bg-[#003399] inline-block px-3 py-1 mb-6">
-                        <span className="text-white font-bold text-xs uppercase tracking-widest">Editor's Picks</span>
+                        <span className="text-white font-bold text-xs uppercase tracking-widest">{`Editor's`} Picks</span>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {[

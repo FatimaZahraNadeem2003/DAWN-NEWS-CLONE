@@ -1706,7 +1706,7 @@ export default function PrismPage() {
       </section>
 
       <section className="max-w-[1400px] mx-auto px-4 md:px-8 py-16 border-t border-gray-100">
-        <h3 className="text-lg mb-8 italic">Editor's <span className="font-bold not-italic">Picks</span></h3>
+        <h3 className="text-lg mb-8 italic">{`Editor's`} <span className="font-bold not-italic">Picks</span></h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {editorPicks.map((item: Article, idx: number) => (
             <div key={idx} className="group cursor-pointer">

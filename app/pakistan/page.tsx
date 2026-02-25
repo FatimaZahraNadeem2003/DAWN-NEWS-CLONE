@@ -20,14 +20,14 @@ export default function PakistanPage() {
                             PTI objects to ‘secrecy’ after Imran Khan undergoes follow-up treatment for eye ailment at Pims
                         </h1>
                         <img src="https://images.unsplash.com/photo-1576089238240-df71df4191fe?w=600&h=400&fit=crop" className="w-full h-auto mb-4" alt="Imran Khan" />
-                        <p className="text-sm text-gray-800 font-medium mb-4">Doctor terms ex-PM “clinically stable”; law minister says process carried out at night due to "security, operational considerations"; sisters again head to Adiala.</p>
+                        <p className="text-sm text-gray-800 font-medium mb-4">Doctor terms ex-PM “clinically stable”; law minister says process carried out at night due to {`"security`}, operational {`considerations"`}; sisters again head to Adiala.</p>
                         <p className="text-[10px] text-gray-400 font-bold uppercase tracking-widest mb-6">Updated about 2 hours ago</p>
                         
                         <div className="border-t pt-4">
                             <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Related</span>
                             <ul className="mt-3 space-y-4">
-                                <li className="text-[15px] font-serif hover:text-red-800 cursor-pointer">Imran Khan underwent '20-minute medical procedure' at Islamabad's Pims, confirms info minister</li>
-                                <li className="text-[15px] font-serif border-t pt-4 hover:text-red-800 cursor-pointer">Former cricket captains, including India's Gavaskar and Kapil, issue humanitarian appeal for jailed Imran</li>
+                                <li className="text-[15px] font-serif hover:text-red-800 cursor-pointer">Imran Khan underwent {`'20-minute`} medical {`procedure'`} at {`Islamabad's`} Pims, confirms info minister</li>
+                                <li className="text-[15px] font-serif border-t pt-4 hover:text-red-800 cursor-pointer">Former cricket captains, including {`India's`} Gavaskar and Kapil, issue humanitarian appeal for jailed Imran</li>
                             </ul>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ export default function PakistanPage() {
                             <div className="grid grid-cols-2 gap-4 mt-4">
                                 <div>
                                     <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=200&h=150&fit=crop" className="w-full h-[100px] object-cover mb-2" alt="pindi" />
-                                    <p className="text-[13px] font-bold leading-tight font-serif">Have you heard the new PSL team names, because X has and it's shocked</p>
+                                    <p className="text-[13px] font-bold leading-tight font-serif">Have you heard the new PSL team names, because X has and {`it's`} shocked</p>
                                 </div>
                                 <div>
                                     <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=150&fit=crop" className="w-full h-[100px] object-cover mb-2" alt="art" />
