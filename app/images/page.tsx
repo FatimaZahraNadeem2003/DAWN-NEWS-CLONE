@@ -158,6 +158,75 @@ export default function ImagesPage() {
                     </div>
                 </div>
             </div>
+            <div className="bg-[#f0d8df] min-h-screen p-8 md:p-12 font-sans text-black">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12">
+        
+        <div className="lg:col-span-4 flex flex-col">
+          <div className="text-right mb-4">
+            <p className="text-[10px] font-bold text-gray-500 uppercase tracking-widest">Culture</p>
+            <h1 className="text-3xl md:text-4xl font-black uppercase leading-[1.1] mt-4 tracking-tighter">
+              Who's afraid of the big bad mom-to-be? Exploring why maternity leave in Pakistan is such a 'problem'
+            </h1>
+            <p className="text-sm mt-4 font-medium italic">Annam Lodhi</p>
+          </div>
+          <div className="mt-auto aspect-[4/5] overflow-hidden">
+            <img 
+              src="https://images.unsplash.com/photo-1508962914676-139429cf6978?auto=format&fit=crop&q=80&w=800" 
+              alt="Maternity leave clock" 
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+
+        <div className="lg:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
+          
+          <div className="flex flex-col">
+            <div className="aspect-video overflow-hidden mb-3">
+              <img src="https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?auto=format&fit=crop&q=80&w=800" alt="BAFTA" className="w-full h-full object-cover" />
+            </div>
+            <p className="text-[10px] font-bold text-gray-500 uppercase tracking-widest text-right">Culture</p>
+            <h2 className="text-xl font-black uppercase leading-tight mt-1 text-right">
+              BBC on alert for political messages, swearing during upcoming BAFTA awards
+            </h2>
+            <p className="text-xs mt-2 text-right italic font-medium">Images Staff</p>
+          </div>
+
+          <div className="flex flex-col">
+            <div className="aspect-video overflow-hidden mb-3">
+              <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&q=80&w=800" alt="Star Trek" className="w-full h-full object-cover" />
+            </div>
+            <p className="text-[10px] font-bold text-gray-500 uppercase tracking-widest text-right">Culture</p>
+            <h2 className="text-xl font-black uppercase leading-tight mt-1 text-right">
+              Review: Starfleet Academy boldly goes where no Trek should — into Archies territory
+            </h2>
+            <p className="text-xs mt-2 text-right italic font-medium">Mohammad Kamran Jawaid</p>
+          </div>
+
+          <div className="flex flex-col">
+            <div className="aspect-video overflow-hidden mb-3">
+              <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=800" alt="Pakistan's Got Talent" className="w-full h-full object-cover" />
+            </div>
+            <p className="text-[10px] font-bold text-gray-500 uppercase tracking-widest text-right">Culture</p>
+            <h2 className="text-xl font-black uppercase leading-tight mt-1 text-right">
+              You can now audition for Pakistan's Got Talent
+            </h2>
+            <p className="text-xs mt-2 text-right italic font-medium">Images Staff</p>
+          </div>
+
+          <div className="flex flex-col">
+            <div className="aspect-video overflow-hidden mb-3">
+              <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&q=80&w=800" alt="Lali Premiere" className="w-full h-full object-cover" />
+            </div>
+            <p className="text-[10px] font-bold text-gray-500 uppercase tracking-widest text-right">Culture</p>
+            <h2 className="text-xl font-black uppercase leading-tight mt-1 text-right">
+              Sarmad Khoosat's Lali premieres at Berlinale, turning Berlin into a celebration of Pakistani cinema
+            </h2>
+            <p className="text-xs mt-2 text-right italic font-medium">Images Staff</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
 
         </main>
     );
