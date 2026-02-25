@@ -8,6 +8,7 @@ import {
   Phone, 
   Mail 
 } from 'lucide-react';
+import Footer from '../components/Footer';
 
 const BreathePage = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -321,6 +322,7 @@ const BreathePage = () => {
             </div>
           </div>
         </div>
+        <Footer />
     </div>
   );
 };
