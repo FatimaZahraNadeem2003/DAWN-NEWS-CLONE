@@ -1,24 +1,9 @@
 'use client'
 export default function Header() {
-  const topLinks = [
-    "EPAPER", "LIVE TV", "DAWNNEWS URDU", "IMAGES", "HERALD",
-    "AURORA", "CITYFM89", "ADVERTISE", "EVENTS",
-    "SUPPLEMENTS", "CAREERS", "OBITUARIES"
-  ];
 
   return (
     <header className="w-full bg-white">
       <div className="bg-black text-white text-[9px] md:text-[10px] py-1.5 overflow-x-auto no-scrollbar">
-        <div className="flex justify-start md:justify-center items-center gap-4 md:gap-5 px-4 uppercase font-medium tracking-wider whitespace-nowrap min-w-max mx-auto">
-          {topLinks.map((link) => (
-            <span
-              key={link}
-              className={`cursor-pointer hover:underline ${link === 'DAWNNEWS URDU' ? 'text-red-500' : ''}`}
-            >
-              {link}
-            </span>
-          ))}
-        </div>
       </div>
 
       <div className="py-6 md:py-10 border-b flex flex-col items-center px-4 text-center">
