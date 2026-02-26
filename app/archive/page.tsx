@@ -39,7 +39,7 @@ const TrendingItem = ({ number, title, description, time, image }: {
     </div>
 );
 
-export default function PopularPage() {
+export default function Archive() {
     const trendingStories = [
         {
             number: "1",
